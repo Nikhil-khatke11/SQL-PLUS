@@ -1,4 +1,4 @@
-JavaSqlPlus 🗄️
+Java Sql Plus 🗄️
 ===============
 
 A simple command-line tool for Oracle Database, just like SQL*Plus, but written in Java! ☕
@@ -73,25 +73,13 @@ Step 4 - Run ▶️
 
 📖 Example Usage
 -----------------
-  SQL> SELECT * FROM employees;
+-  SQL> SELECT * FROM employees;
 
-  +----+----------+-----------+
-  | ID | NAME     | SALARY    |
-  +----+----------+-----------+
-  |  1 | Alice    | 50000     |
-  |  2 | Bob      | 60000     |
-  +----+----------+-----------+
-  2 row(s) selected. ✅
 
-  SQL> DESC employees;
+-  SQL> DESC employees;
 
-   COLUMN_NAME     DATA_TYPE    SIZE    NULLABLE
-  ------------------------------------------------
-   ID              NUMBER       10      NO
-   NAME            VARCHAR2     100     YES
-   SALARY          NUMBER       10      YES
-
-  SQL> exit
+   
+-  SQL> exit
   Disconnected. Bye! 👋
 
 
