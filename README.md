@@ -39,8 +39,8 @@ Step 2 - Set your database credentials 🔐
   Open JavaSqlPlus.java and update these lines with your own details:
 
     static String url    = "jdbc:oracle:thin:@localhost:1521:orcl";
-    static String dbUser = "system";
-    static String dbPass = "nikhil";
+    static String dbUser = "yourdb_userName";
+    static String dbPass = "yourdb_password";
 
 Step 3 - Compile 🔨
 
